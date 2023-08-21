@@ -1,0 +1,48 @@
+/*import google fonts */
+@import url("https://www.flaticon.com/free-icon/check_4210407?term=attendance&page=1&position=3&page=1&position=3&related_id=4210407&origin=search");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(grey, rgba(139, 47, 47, 0.815));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-bx{
+    background: linear-gradient(rgba(11, 11, 12, 0.829), rgba(61, 21, 21, 0.879));
+    text-align: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    position: relative;
+    border-radius: 20px;
+    animation: forwards 0.98s;
+}
+.profile-bx button{
+    background: linear-gradient(rgb(148, 148, 148), rgb(31, 31, 31));
+    color: rgb(172, 172, 172);
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 15px 60px;
+    cursor:pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-bx button:hover{
+    width: 95%;
+    transform: translate(50) rotate(5deg);
+}

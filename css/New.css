@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(47, 98, 139, 0.815),rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background: linear-gradient(rgba(55, 57, 61, 0.829), rgba(0, 0, 0, 0.329));
+    text-align: center;
+    padding: 40px 100px;
+    color: #ffffff;
+    position: relative;
+    border-radius: 20px;
+    animation: forwards 0.98s;
+
+}
+.menu-icon {
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.settings-icon {
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.profile-pic{
+    width: 210px;
+    height: 175px;
+    border-radius: 50%;
+    background: #00801300;
+    padding: 4px;
+    margin-top: 40px;
+    transform-origin: 50%;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.profile-box button{
+    background: linear-gradient(rgb(148, 148, 148), rgb(31, 31, 31));
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-box button:hover{
+    width: 85%;
+  transform: translate(50) rotate(5deg);
+}
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.profile-box h1{
+    font-style:oblique;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-box h2{
+    font-style: oblique;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile-box .profile-pic:hover{
+    filter: grayscale(0);
+    transform: scale(1.2) rotate(9deg);
+}
+
+
